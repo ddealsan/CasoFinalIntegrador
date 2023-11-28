@@ -3,7 +3,7 @@ project(CasoFinalIntegrador2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(tu_ejecutable main.cpp)
+add_executable(main.cpp)
 
 
 target_include_directories(tu_ejecutable PRIVATE ${CMAKE_SOURCE_DIR}/ruta/a/json11.hpp)
